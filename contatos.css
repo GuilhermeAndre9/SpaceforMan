@@ -43,7 +43,7 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label, form legend {
     display: block;
     margin: 0 0 10px 0;
     font-size: 20px;
@@ -59,6 +59,40 @@ form label {
 
 .checkbox {
     margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(0.9);
+    transform: rotate(2deg);
+}
+
+table {
+    margin: 20px 0 40px;
+
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th {
+    border: solid 1px #000000;
+    padding: 8px 15px;
 }
 
 footer {
